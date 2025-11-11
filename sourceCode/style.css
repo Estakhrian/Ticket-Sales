@@ -1,0 +1,68 @@
+body {
+  background-image: url(./img/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fnameInput,
+.lnameInput,
+.phoneInput,
+.emailInput {
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 0px 10px;
+}
+
+.btn {
+  height: 30px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 0px 20px;
+  background-color: rgb(255, 217, 0);
+  margin-top: 40px;
+}
+
+.box {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  overflow: hidden;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 40vw;
+}
+
+.countrycity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.countrySelect {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 0px 10px;
+}
+
+.citySelect {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 0px 10px;
+}
